@@ -35,7 +35,7 @@
             this.rdBtnMid = new System.Windows.Forms.RadioButton();
             this.rdBtnSmall = new System.Windows.Forms.RadioButton();
             this.grbCrust = new System.Windows.Forms.GroupBox();
-            this.rdBtnThink = new System.Windows.Forms.RadioButton();
+            this.rdBtnThick = new System.Windows.Forms.RadioButton();
             this.rdBtnThin = new System.Windows.Forms.RadioButton();
             this.grbToopings = new System.Windows.Forms.GroupBox();
             this.chkTomatoes = new System.Windows.Forms.CheckBox();
@@ -72,9 +72,10 @@
             this.Title.AutoSize = true;
             this.Title.Font = new System.Drawing.Font("Viner Hand ITC", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Title.ForeColor = System.Drawing.Color.Maroon;
-            this.Title.Location = new System.Drawing.Point(255, 7);
+            this.Title.Location = new System.Drawing.Point(298, 9);
+            this.Title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(569, 103);
+            this.Title.Size = new System.Drawing.Size(709, 129);
             this.Title.TabIndex = 0;
             this.Title.Text = "Make Your Pizza";
             this.Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -85,11 +86,11 @@
             this.grbSize.Controls.Add(this.rdBtnMid);
             this.grbSize.Controls.Add(this.rdBtnSmall);
             this.grbSize.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbSize.Location = new System.Drawing.Point(34, 137);
-            this.grbSize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grbSize.Location = new System.Drawing.Point(40, 169);
+            this.grbSize.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.grbSize.Name = "grbSize";
-            this.grbSize.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grbSize.Size = new System.Drawing.Size(182, 168);
+            this.grbSize.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.grbSize.Size = new System.Drawing.Size(212, 207);
             this.grbSize.TabIndex = 1;
             this.grbSize.TabStop = false;
             this.grbSize.Text = "Size";
@@ -97,10 +98,10 @@
             // rdBtnLarge
             // 
             this.rdBtnLarge.AutoSize = true;
-            this.rdBtnLarge.Location = new System.Drawing.Point(26, 130);
-            this.rdBtnLarge.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdBtnLarge.Location = new System.Drawing.Point(30, 160);
+            this.rdBtnLarge.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.rdBtnLarge.Name = "rdBtnLarge";
-            this.rdBtnLarge.Size = new System.Drawing.Size(60, 21);
+            this.rdBtnLarge.Size = new System.Drawing.Size(72, 25);
             this.rdBtnLarge.TabIndex = 2;
             this.rdBtnLarge.Tag = "9.5";
             this.rdBtnLarge.Text = "Large";
@@ -110,10 +111,10 @@
             // rdBtnMid
             // 
             this.rdBtnMid.AutoSize = true;
-            this.rdBtnMid.Location = new System.Drawing.Point(26, 83);
-            this.rdBtnMid.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdBtnMid.Location = new System.Drawing.Point(30, 102);
+            this.rdBtnMid.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.rdBtnMid.Name = "rdBtnMid";
-            this.rdBtnMid.Size = new System.Drawing.Size(46, 21);
+            this.rdBtnMid.Size = new System.Drawing.Size(57, 25);
             this.rdBtnMid.TabIndex = 1;
             this.rdBtnMid.Tag = "7.5";
             this.rdBtnMid.Text = "Mid";
@@ -124,10 +125,10 @@
             // 
             this.rdBtnSmall.AutoSize = true;
             this.rdBtnSmall.Checked = true;
-            this.rdBtnSmall.Location = new System.Drawing.Point(26, 36);
-            this.rdBtnSmall.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdBtnSmall.Location = new System.Drawing.Point(30, 44);
+            this.rdBtnSmall.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.rdBtnSmall.Name = "rdBtnSmall";
-            this.rdBtnSmall.Size = new System.Drawing.Size(57, 21);
+            this.rdBtnSmall.Size = new System.Drawing.Size(71, 25);
             this.rdBtnSmall.TabIndex = 0;
             this.rdBtnSmall.TabStop = true;
             this.rdBtnSmall.Tag = "5";
@@ -137,39 +138,39 @@
             // 
             // grbCrust
             // 
-            this.grbCrust.Controls.Add(this.rdBtnThink);
+            this.grbCrust.Controls.Add(this.rdBtnThick);
             this.grbCrust.Controls.Add(this.rdBtnThin);
             this.grbCrust.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbCrust.Location = new System.Drawing.Point(598, 137);
-            this.grbCrust.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grbCrust.Location = new System.Drawing.Point(698, 169);
+            this.grbCrust.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.grbCrust.Name = "grbCrust";
-            this.grbCrust.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grbCrust.Size = new System.Drawing.Size(182, 132);
+            this.grbCrust.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.grbCrust.Size = new System.Drawing.Size(212, 162);
             this.grbCrust.TabIndex = 3;
             this.grbCrust.TabStop = false;
             this.grbCrust.Text = "Crust";
             // 
-            // rdBtnThink
+            // rdBtnThick
             // 
-            this.rdBtnThink.AutoSize = true;
-            this.rdBtnThink.Location = new System.Drawing.Point(26, 90);
-            this.rdBtnThink.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.rdBtnThink.Name = "rdBtnThink";
-            this.rdBtnThink.Size = new System.Drawing.Size(59, 21);
-            this.rdBtnThink.TabIndex = 1;
-            this.rdBtnThink.Tag = "3";
-            this.rdBtnThink.Text = "Think";
-            this.rdBtnThink.UseVisualStyleBackColor = true;
-            this.rdBtnThink.CheckedChanged += new System.EventHandler(this.rdBtnThink_CheckedChanged);
+            this.rdBtnThick.AutoSize = true;
+            this.rdBtnThick.Location = new System.Drawing.Point(30, 111);
+            this.rdBtnThick.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.rdBtnThick.Name = "rdBtnThick";
+            this.rdBtnThick.Size = new System.Drawing.Size(70, 25);
+            this.rdBtnThick.TabIndex = 1;
+            this.rdBtnThick.Tag = "3";
+            this.rdBtnThick.Text = "Thick";
+            this.rdBtnThick.UseVisualStyleBackColor = true;
+            this.rdBtnThick.CheckedChanged += new System.EventHandler(this.rdBtnThink_CheckedChanged);
             // 
             // rdBtnThin
             // 
             this.rdBtnThin.AutoSize = true;
             this.rdBtnThin.Checked = true;
-            this.rdBtnThin.Location = new System.Drawing.Point(26, 43);
-            this.rdBtnThin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdBtnThin.Location = new System.Drawing.Point(30, 53);
+            this.rdBtnThin.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.rdBtnThin.Name = "rdBtnThin";
-            this.rdBtnThin.Size = new System.Drawing.Size(52, 21);
+            this.rdBtnThin.Size = new System.Drawing.Size(63, 25);
             this.rdBtnThin.TabIndex = 0;
             this.rdBtnThin.TabStop = true;
             this.rdBtnThin.Tag = "0";
@@ -186,11 +187,11 @@
             this.grbToopings.Controls.Add(this.chkExtraChees);
             this.grbToopings.Controls.Add(this.chkOnion);
             this.grbToopings.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbToopings.Location = new System.Drawing.Point(274, 137);
-            this.grbToopings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grbToopings.Location = new System.Drawing.Point(320, 169);
+            this.grbToopings.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.grbToopings.Name = "grbToopings";
-            this.grbToopings.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grbToopings.Size = new System.Drawing.Size(266, 168);
+            this.grbToopings.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.grbToopings.Size = new System.Drawing.Size(310, 207);
             this.grbToopings.TabIndex = 4;
             this.grbToopings.TabStop = false;
             this.grbToopings.Text = "Toppings";
@@ -198,10 +199,10 @@
             // chkTomatoes
             // 
             this.chkTomatoes.AutoSize = true;
-            this.chkTomatoes.Location = new System.Drawing.Point(27, 121);
-            this.chkTomatoes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkTomatoes.Location = new System.Drawing.Point(31, 149);
+            this.chkTomatoes.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.chkTomatoes.Name = "chkTomatoes";
-            this.chkTomatoes.Size = new System.Drawing.Size(88, 21);
+            this.chkTomatoes.Size = new System.Drawing.Size(106, 25);
             this.chkTomatoes.TabIndex = 9;
             this.chkTomatoes.Tag = "1";
             this.chkTomatoes.Text = "Tomatoes";
@@ -211,10 +212,10 @@
             // chkGreenPeppers
             // 
             this.chkGreenPeppers.AutoSize = true;
-            this.chkGreenPeppers.Location = new System.Drawing.Point(141, 121);
-            this.chkGreenPeppers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkGreenPeppers.Location = new System.Drawing.Point(164, 149);
+            this.chkGreenPeppers.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.chkGreenPeppers.Name = "chkGreenPeppers";
-            this.chkGreenPeppers.Size = new System.Drawing.Size(116, 21);
+            this.chkGreenPeppers.Size = new System.Drawing.Size(140, 25);
             this.chkGreenPeppers.TabIndex = 8;
             this.chkGreenPeppers.Tag = "1";
             this.chkGreenPeppers.Text = "Green Peppers";
@@ -224,10 +225,10 @@
             // chkMushrooms
             // 
             this.chkMushrooms.AutoSize = true;
-            this.chkMushrooms.Location = new System.Drawing.Point(141, 45);
-            this.chkMushrooms.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkMushrooms.Location = new System.Drawing.Point(164, 55);
+            this.chkMushrooms.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.chkMushrooms.Name = "chkMushrooms";
-            this.chkMushrooms.Size = new System.Drawing.Size(98, 21);
+            this.chkMushrooms.Size = new System.Drawing.Size(117, 25);
             this.chkMushrooms.TabIndex = 7;
             this.chkMushrooms.Tag = "1";
             this.chkMushrooms.Text = "Mushrooms";
@@ -237,10 +238,10 @@
             // chkOlives
             // 
             this.chkOlives.AutoSize = true;
-            this.chkOlives.Location = new System.Drawing.Point(141, 83);
-            this.chkOlives.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkOlives.Location = new System.Drawing.Point(164, 102);
+            this.chkOlives.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.chkOlives.Name = "chkOlives";
-            this.chkOlives.Size = new System.Drawing.Size(62, 21);
+            this.chkOlives.Size = new System.Drawing.Size(77, 25);
             this.chkOlives.TabIndex = 6;
             this.chkOlives.Tag = "1";
             this.chkOlives.Text = "Olives";
@@ -250,10 +251,10 @@
             // chkExtraChees
             // 
             this.chkExtraChees.AutoSize = true;
-            this.chkExtraChees.Location = new System.Drawing.Point(27, 83);
-            this.chkExtraChees.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkExtraChees.Location = new System.Drawing.Point(31, 102);
+            this.chkExtraChees.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.chkExtraChees.Name = "chkExtraChees";
-            this.chkExtraChees.Size = new System.Drawing.Size(101, 21);
+            this.chkExtraChees.Size = new System.Drawing.Size(121, 25);
             this.chkExtraChees.TabIndex = 5;
             this.chkExtraChees.Tag = "1";
             this.chkExtraChees.Text = "Extra Chees";
@@ -263,10 +264,10 @@
             // chkOnion
             // 
             this.chkOnion.AutoSize = true;
-            this.chkOnion.Location = new System.Drawing.Point(27, 45);
-            this.chkOnion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkOnion.Location = new System.Drawing.Point(31, 55);
+            this.chkOnion.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.chkOnion.Name = "chkOnion";
-            this.chkOnion.Size = new System.Drawing.Size(63, 21);
+            this.chkOnion.Size = new System.Drawing.Size(75, 25);
             this.chkOnion.TabIndex = 0;
             this.chkOnion.Tag = "1";
             this.chkOnion.Text = "Onion";
@@ -278,11 +279,11 @@
             this.grbWherToEat.Controls.Add(this.rdBtnTakeAway);
             this.grbWherToEat.Controls.Add(this.rdBtnInDoor);
             this.grbWherToEat.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbWherToEat.Location = new System.Drawing.Point(838, 137);
-            this.grbWherToEat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grbWherToEat.Location = new System.Drawing.Point(978, 169);
+            this.grbWherToEat.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.grbWherToEat.Name = "grbWherToEat";
-            this.grbWherToEat.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grbWherToEat.Size = new System.Drawing.Size(182, 132);
+            this.grbWherToEat.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.grbWherToEat.Size = new System.Drawing.Size(212, 162);
             this.grbWherToEat.TabIndex = 4;
             this.grbWherToEat.TabStop = false;
             this.grbWherToEat.Text = "Where To Eat";
@@ -290,10 +291,10 @@
             // rdBtnTakeAway
             // 
             this.rdBtnTakeAway.AutoSize = true;
-            this.rdBtnTakeAway.Location = new System.Drawing.Point(26, 90);
-            this.rdBtnTakeAway.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdBtnTakeAway.Location = new System.Drawing.Point(30, 111);
+            this.rdBtnTakeAway.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.rdBtnTakeAway.Name = "rdBtnTakeAway";
-            this.rdBtnTakeAway.Size = new System.Drawing.Size(92, 21);
+            this.rdBtnTakeAway.Size = new System.Drawing.Size(113, 25);
             this.rdBtnTakeAway.TabIndex = 1;
             this.rdBtnTakeAway.Tag = "0";
             this.rdBtnTakeAway.Text = "Take Away";
@@ -304,10 +305,10 @@
             // 
             this.rdBtnInDoor.AutoSize = true;
             this.rdBtnInDoor.Checked = true;
-            this.rdBtnInDoor.Location = new System.Drawing.Point(26, 43);
-            this.rdBtnInDoor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdBtnInDoor.Location = new System.Drawing.Point(30, 53);
+            this.rdBtnInDoor.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.rdBtnInDoor.Name = "rdBtnInDoor";
-            this.rdBtnInDoor.Size = new System.Drawing.Size(73, 21);
+            this.rdBtnInDoor.Size = new System.Drawing.Size(87, 25);
             this.rdBtnInDoor.TabIndex = 0;
             this.rdBtnInDoor.TabStop = true;
             this.rdBtnInDoor.Tag = "5";
@@ -319,9 +320,10 @@
             // 
             this.lblSummary.AutoSize = true;
             this.lblSummary.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSummary.Location = new System.Drawing.Point(30, 347);
+            this.lblSummary.Location = new System.Drawing.Point(35, 427);
+            this.lblSummary.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSummary.Name = "lblSummary";
-            this.lblSummary.Size = new System.Drawing.Size(144, 23);
+            this.lblSummary.Size = new System.Drawing.Size(171, 28);
             this.lblSummary.TabIndex = 5;
             this.lblSummary.Text = "Order Summary";
             // 
@@ -329,9 +331,10 @@
             // 
             this.lblSize.AutoSize = true;
             this.lblSize.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSize.Location = new System.Drawing.Point(45, 392);
+            this.lblSize.Location = new System.Drawing.Point(52, 482);
+            this.lblSize.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSize.Name = "lblSize";
-            this.lblSize.Size = new System.Drawing.Size(56, 23);
+            this.lblSize.Size = new System.Drawing.Size(67, 28);
             this.lblSize.TabIndex = 6;
             this.lblSize.Text = "Size: ";
             // 
@@ -339,9 +342,10 @@
             // 
             this.lblCrust.AutoSize = true;
             this.lblCrust.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCrust.Location = new System.Drawing.Point(45, 427);
+            this.lblCrust.Location = new System.Drawing.Point(52, 526);
+            this.lblCrust.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCrust.Name = "lblCrust";
-            this.lblCrust.Size = new System.Drawing.Size(107, 23);
+            this.lblCrust.Size = new System.Drawing.Size(129, 28);
             this.lblCrust.TabIndex = 7;
             this.lblCrust.Text = "Crust Type:";
             // 
@@ -349,9 +353,10 @@
             // 
             this.lblWhereToEat.AutoSize = true;
             this.lblWhereToEat.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWhereToEat.Location = new System.Drawing.Point(45, 463);
+            this.lblWhereToEat.Location = new System.Drawing.Point(52, 570);
+            this.lblWhereToEat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWhereToEat.Name = "lblWhereToEat";
-            this.lblWhereToEat.Size = new System.Drawing.Size(138, 23);
+            this.lblWhereToEat.Size = new System.Drawing.Size(165, 28);
             this.lblWhereToEat.TabIndex = 8;
             this.lblWhereToEat.Text = "Where To Eat: ";
             // 
@@ -359,9 +364,10 @@
             // 
             this.lblSizeChoise.AutoSize = true;
             this.lblSizeChoise.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSizeChoise.Location = new System.Drawing.Point(108, 396);
+            this.lblSizeChoise.Location = new System.Drawing.Point(126, 487);
+            this.lblSizeChoise.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSizeChoise.Name = "lblSizeChoise";
-            this.lblSizeChoise.Size = new System.Drawing.Size(39, 17);
+            this.lblSizeChoise.Size = new System.Drawing.Size(50, 21);
             this.lblSizeChoise.TabIndex = 9;
             this.lblSizeChoise.Text = "Small";
             // 
@@ -369,9 +375,10 @@
             // 
             this.lblCrustChoise.AutoSize = true;
             this.lblCrustChoise.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCrustChoise.Location = new System.Drawing.Point(161, 433);
+            this.lblCrustChoise.Location = new System.Drawing.Point(188, 533);
+            this.lblCrustChoise.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCrustChoise.Name = "lblCrustChoise";
-            this.lblCrustChoise.Size = new System.Drawing.Size(34, 17);
+            this.lblCrustChoise.Size = new System.Drawing.Size(42, 21);
             this.lblCrustChoise.TabIndex = 10;
             this.lblCrustChoise.Text = "Thin";
             // 
@@ -379,9 +386,10 @@
             // 
             this.lblPlaceChoice.AutoSize = true;
             this.lblPlaceChoice.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlaceChoice.Location = new System.Drawing.Point(192, 469);
+            this.lblPlaceChoice.Location = new System.Drawing.Point(224, 577);
+            this.lblPlaceChoice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlaceChoice.Name = "lblPlaceChoice";
-            this.lblPlaceChoice.Size = new System.Drawing.Size(55, 17);
+            this.lblPlaceChoice.Size = new System.Drawing.Size(66, 21);
             this.lblPlaceChoice.TabIndex = 11;
             this.lblPlaceChoice.Text = "In Door";
             // 
@@ -389,9 +397,10 @@
             // 
             this.lblToppings.AutoSize = true;
             this.lblToppings.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblToppings.Location = new System.Drawing.Point(45, 502);
+            this.lblToppings.Location = new System.Drawing.Point(52, 618);
+            this.lblToppings.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblToppings.Name = "lblToppings";
-            this.lblToppings.Size = new System.Drawing.Size(100, 23);
+            this.lblToppings.Size = new System.Drawing.Size(119, 28);
             this.lblToppings.TabIndex = 12;
             this.lblToppings.Text = "Toppings: ";
             // 
@@ -399,18 +408,20 @@
             // 
             this.lblToopingsChoice.AutoSize = true;
             this.lblToopingsChoice.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblToopingsChoice.Location = new System.Drawing.Point(153, 508);
+            this.lblToopingsChoice.Location = new System.Drawing.Point(178, 625);
+            this.lblToopingsChoice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblToopingsChoice.Name = "lblToopingsChoice";
-            this.lblToopingsChoice.Size = new System.Drawing.Size(0, 17);
+            this.lblToopingsChoice.Size = new System.Drawing.Size(0, 21);
             this.lblToopingsChoice.TabIndex = 13;
             // 
             // lblToppingsChoice
             // 
             this.lblToppingsChoice.AutoSize = true;
             this.lblToppingsChoice.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblToppingsChoice.Location = new System.Drawing.Point(153, 507);
+            this.lblToppingsChoice.Location = new System.Drawing.Point(178, 624);
+            this.lblToppingsChoice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblToppingsChoice.Name = "lblToppingsChoice";
-            this.lblToppingsChoice.Size = new System.Drawing.Size(85, 17);
+            this.lblToppingsChoice.Size = new System.Drawing.Size(102, 21);
             this.lblToppingsChoice.TabIndex = 14;
             this.lblToppingsChoice.Text = "No Toppings";
             // 
@@ -418,9 +429,10 @@
             // 
             this.lblTotalPrice.AutoSize = true;
             this.lblTotalPrice.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPrice.Location = new System.Drawing.Point(45, 545);
+            this.lblTotalPrice.Location = new System.Drawing.Point(52, 671);
+            this.lblTotalPrice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalPrice.Name = "lblTotalPrice";
-            this.lblTotalPrice.Size = new System.Drawing.Size(110, 23);
+            this.lblTotalPrice.Size = new System.Drawing.Size(133, 28);
             this.lblTotalPrice.TabIndex = 15;
             this.lblTotalPrice.Text = "Total Price: ";
             // 
@@ -429,9 +441,10 @@
             this.lblTotalPriceValue.AutoSize = true;
             this.lblTotalPriceValue.Font = new System.Drawing.Font("Tahoma", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPriceValue.ForeColor = System.Drawing.Color.Green;
-            this.lblTotalPriceValue.Location = new System.Drawing.Point(165, 545);
+            this.lblTotalPriceValue.Location = new System.Drawing.Point(192, 671);
+            this.lblTotalPriceValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalPriceValue.Name = "lblTotalPriceValue";
-            this.lblTotalPriceValue.Size = new System.Drawing.Size(74, 33);
+            this.lblTotalPriceValue.Size = new System.Drawing.Size(90, 40);
             this.lblTotalPriceValue.TabIndex = 16;
             this.lblTotalPriceValue.Tag = "0";
             this.lblTotalPriceValue.Text = "$ 11";
@@ -439,10 +452,10 @@
             // btnOrder
             // 
             this.btnOrder.BackColor = System.Drawing.SystemColors.Control;
-            this.btnOrder.Location = new System.Drawing.Point(838, 353);
-            this.btnOrder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnOrder.Location = new System.Drawing.Point(978, 434);
+            this.btnOrder.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnOrder.Name = "btnOrder";
-            this.btnOrder.Size = new System.Drawing.Size(105, 62);
+            this.btnOrder.Size = new System.Drawing.Size(122, 76);
             this.btnOrder.TabIndex = 17;
             this.btnOrder.Text = "Order";
             this.btnOrder.UseVisualStyleBackColor = false;
@@ -451,10 +464,10 @@
             // btnReset
             // 
             this.btnReset.BackColor = System.Drawing.SystemColors.Control;
-            this.btnReset.Location = new System.Drawing.Point(838, 447);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnReset.Location = new System.Drawing.Point(978, 550);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(105, 62);
+            this.btnReset.Size = new System.Drawing.Size(122, 76);
             this.btnReset.TabIndex = 18;
             this.btnReset.Text = "Reset Form";
             this.btnReset.UseVisualStyleBackColor = false;
@@ -462,9 +475,9 @@
             // 
             // FrmPizzaOrder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 626);
+            this.ClientSize = new System.Drawing.Size(1245, 770);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnOrder);
             this.Controls.Add(this.lblTotalPriceValue);
@@ -485,7 +498,7 @@
             this.Controls.Add(this.grbSize);
             this.Controls.Add(this.Title);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "FrmPizzaOrder";
             this.Text = "Pizza Order";
             this.Load += new System.EventHandler(this.FrmPizzaOrder_Load);
@@ -510,7 +523,7 @@
         private System.Windows.Forms.RadioButton rdBtnMid;
         private System.Windows.Forms.RadioButton rdBtnSmall;
         private System.Windows.Forms.GroupBox grbCrust;
-        private System.Windows.Forms.RadioButton rdBtnThink;
+        private System.Windows.Forms.RadioButton rdBtnThick;
         private System.Windows.Forms.RadioButton rdBtnThin;
         private System.Windows.Forms.GroupBox grbToopings;
         private System.Windows.Forms.CheckBox chkOnion;

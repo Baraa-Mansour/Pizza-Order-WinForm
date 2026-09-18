@@ -35,7 +35,7 @@ namespace Pizza_Order_WinForm
         }
         private float GetCrustPrice()
         {
-            string strPrice = (rdBtnThin.Checked ? rdBtnThin.Tag : rdBtnThink.Tag).ToString();
+            string strPrice = (rdBtnThin.Checked ? rdBtnThin.Tag : rdBtnThick.Tag).ToString();
 
             return Convert.ToSingle(strPrice);
         }
@@ -88,8 +88,8 @@ namespace Pizza_Order_WinForm
         {
             if (rdBtnThin.Checked)
                 lblCrustChoise.Text = rdBtnThin.Text;
-            else if (rdBtnThink.Checked)
-                lblCrustChoise.Text = rdBtnThink.Text;
+            else if (rdBtnThick.Checked)
+                lblCrustChoise.Text = rdBtnThick.Text;
         }
 
         private void UpdateEatPlaceLbl()
