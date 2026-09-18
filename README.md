@@ -41,6 +41,7 @@ Every selection instantly updates the Order Summary panel and the Total Price la
 ```bash
     Pizza_Order_WinForm/
     │
+    ├── images/                    # Image using in project 
     ├── FrmPizzaOrder.cs           # Form logic: pricing, summaries, order/reset
     ├── FrmPizzaOrder.Designer.cs  # Auto-generated UI layout & control definitions
     ├── FrmPizzaOrder.resx         # Form resources (icon, etc.)
