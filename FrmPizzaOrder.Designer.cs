@@ -37,12 +37,12 @@
             this.grbCrust = new System.Windows.Forms.GroupBox();
             this.rdBtnThick = new System.Windows.Forms.RadioButton();
             this.rdBtnThin = new System.Windows.Forms.RadioButton();
-            this.grbToopings = new System.Windows.Forms.GroupBox();
+            this.grbToppings = new System.Windows.Forms.GroupBox();
             this.chkTomatoes = new System.Windows.Forms.CheckBox();
             this.chkGreenPeppers = new System.Windows.Forms.CheckBox();
             this.chkMushrooms = new System.Windows.Forms.CheckBox();
             this.chkOlives = new System.Windows.Forms.CheckBox();
-            this.chkExtraChees = new System.Windows.Forms.CheckBox();
+            this.chkExtraCheese = new System.Windows.Forms.CheckBox();
             this.chkOnion = new System.Windows.Forms.CheckBox();
             this.grbWherToEat = new System.Windows.Forms.GroupBox();
             this.rdBtnTakeAway = new System.Windows.Forms.RadioButton();
@@ -55,7 +55,6 @@
             this.lblCrustChoise = new System.Windows.Forms.Label();
             this.lblPlaceChoice = new System.Windows.Forms.Label();
             this.lblToppings = new System.Windows.Forms.Label();
-            this.lblToopingsChoice = new System.Windows.Forms.Label();
             this.lblToppingsChoice = new System.Windows.Forms.Label();
             this.lblTotalPrice = new System.Windows.Forms.Label();
             this.lblTotalPriceValue = new System.Windows.Forms.Label();
@@ -63,7 +62,7 @@
             this.btnReset = new System.Windows.Forms.Button();
             this.grbSize.SuspendLayout();
             this.grbCrust.SuspendLayout();
-            this.grbToopings.SuspendLayout();
+            this.grbToppings.SuspendLayout();
             this.grbWherToEat.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -178,23 +177,23 @@
             this.rdBtnThin.UseVisualStyleBackColor = true;
             this.rdBtnThin.CheckedChanged += new System.EventHandler(this.rdBtnThin_CheckedChanged);
             // 
-            // grbToopings
+            // grbToppings
             // 
-            this.grbToopings.Controls.Add(this.chkTomatoes);
-            this.grbToopings.Controls.Add(this.chkGreenPeppers);
-            this.grbToopings.Controls.Add(this.chkMushrooms);
-            this.grbToopings.Controls.Add(this.chkOlives);
-            this.grbToopings.Controls.Add(this.chkExtraChees);
-            this.grbToopings.Controls.Add(this.chkOnion);
-            this.grbToopings.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbToopings.Location = new System.Drawing.Point(320, 169);
-            this.grbToopings.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.grbToopings.Name = "grbToopings";
-            this.grbToopings.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.grbToopings.Size = new System.Drawing.Size(310, 207);
-            this.grbToopings.TabIndex = 4;
-            this.grbToopings.TabStop = false;
-            this.grbToopings.Text = "Toppings";
+            this.grbToppings.Controls.Add(this.chkTomatoes);
+            this.grbToppings.Controls.Add(this.chkGreenPeppers);
+            this.grbToppings.Controls.Add(this.chkMushrooms);
+            this.grbToppings.Controls.Add(this.chkOlives);
+            this.grbToppings.Controls.Add(this.chkExtraCheese);
+            this.grbToppings.Controls.Add(this.chkOnion);
+            this.grbToppings.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbToppings.Location = new System.Drawing.Point(320, 169);
+            this.grbToppings.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.grbToppings.Name = "grbToppings";
+            this.grbToppings.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.grbToppings.Size = new System.Drawing.Size(310, 207);
+            this.grbToppings.TabIndex = 4;
+            this.grbToppings.TabStop = false;
+            this.grbToppings.Text = "Toppings";
             // 
             // chkTomatoes
             // 
@@ -248,18 +247,18 @@
             this.chkOlives.UseVisualStyleBackColor = true;
             this.chkOlives.CheckedChanged += new System.EventHandler(this.chkToppings_CheckedChanged);
             // 
-            // chkExtraChees
+            // chkExtraCheese
             // 
-            this.chkExtraChees.AutoSize = true;
-            this.chkExtraChees.Location = new System.Drawing.Point(31, 102);
-            this.chkExtraChees.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.chkExtraChees.Name = "chkExtraChees";
-            this.chkExtraChees.Size = new System.Drawing.Size(121, 25);
-            this.chkExtraChees.TabIndex = 5;
-            this.chkExtraChees.Tag = "1";
-            this.chkExtraChees.Text = "Extra Chees";
-            this.chkExtraChees.UseVisualStyleBackColor = true;
-            this.chkExtraChees.CheckedChanged += new System.EventHandler(this.chkToppings_CheckedChanged);
+            this.chkExtraCheese.AutoSize = true;
+            this.chkExtraCheese.Location = new System.Drawing.Point(31, 102);
+            this.chkExtraCheese.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.chkExtraCheese.Name = "chkExtraCheese";
+            this.chkExtraCheese.Size = new System.Drawing.Size(130, 25);
+            this.chkExtraCheese.TabIndex = 5;
+            this.chkExtraCheese.Tag = "1";
+            this.chkExtraCheese.Text = "Extra Cheese";
+            this.chkExtraCheese.UseVisualStyleBackColor = true;
+            this.chkExtraCheese.CheckedChanged += new System.EventHandler(this.chkToppings_CheckedChanged);
             // 
             // chkOnion
             // 
@@ -404,16 +403,6 @@
             this.lblToppings.TabIndex = 12;
             this.lblToppings.Text = "Toppings: ";
             // 
-            // lblToopingsChoice
-            // 
-            this.lblToopingsChoice.AutoSize = true;
-            this.lblToopingsChoice.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblToopingsChoice.Location = new System.Drawing.Point(178, 625);
-            this.lblToopingsChoice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblToopingsChoice.Name = "lblToopingsChoice";
-            this.lblToopingsChoice.Size = new System.Drawing.Size(0, 21);
-            this.lblToopingsChoice.TabIndex = 13;
-            // 
             // lblToppingsChoice
             // 
             this.lblToppingsChoice.AutoSize = true;
@@ -483,7 +472,6 @@
             this.Controls.Add(this.lblTotalPriceValue);
             this.Controls.Add(this.lblTotalPrice);
             this.Controls.Add(this.lblToppingsChoice);
-            this.Controls.Add(this.lblToopingsChoice);
             this.Controls.Add(this.lblToppings);
             this.Controls.Add(this.lblPlaceChoice);
             this.Controls.Add(this.lblCrustChoise);
@@ -493,7 +481,7 @@
             this.Controls.Add(this.lblSize);
             this.Controls.Add(this.lblSummary);
             this.Controls.Add(this.grbWherToEat);
-            this.Controls.Add(this.grbToopings);
+            this.Controls.Add(this.grbToppings);
             this.Controls.Add(this.grbCrust);
             this.Controls.Add(this.grbSize);
             this.Controls.Add(this.Title);
@@ -506,8 +494,8 @@
             this.grbSize.PerformLayout();
             this.grbCrust.ResumeLayout(false);
             this.grbCrust.PerformLayout();
-            this.grbToopings.ResumeLayout(false);
-            this.grbToopings.PerformLayout();
+            this.grbToppings.ResumeLayout(false);
+            this.grbToppings.PerformLayout();
             this.grbWherToEat.ResumeLayout(false);
             this.grbWherToEat.PerformLayout();
             this.ResumeLayout(false);
@@ -525,9 +513,9 @@
         private System.Windows.Forms.GroupBox grbCrust;
         private System.Windows.Forms.RadioButton rdBtnThick;
         private System.Windows.Forms.RadioButton rdBtnThin;
-        private System.Windows.Forms.GroupBox grbToopings;
+        private System.Windows.Forms.GroupBox grbToppings;
         private System.Windows.Forms.CheckBox chkOnion;
-        private System.Windows.Forms.CheckBox chkExtraChees;
+        private System.Windows.Forms.CheckBox chkExtraCheese;
         private System.Windows.Forms.CheckBox chkTomatoes;
         private System.Windows.Forms.CheckBox chkGreenPeppers;
         private System.Windows.Forms.CheckBox chkMushrooms;
@@ -543,7 +531,6 @@
         private System.Windows.Forms.Label lblCrustChoise;
         private System.Windows.Forms.Label lblPlaceChoice;
         private System.Windows.Forms.Label lblToppings;
-        private System.Windows.Forms.Label lblToopingsChoice;
         private System.Windows.Forms.Label lblToppingsChoice;
         private System.Windows.Forms.Label lblTotalPrice;
         private System.Windows.Forms.Label lblTotalPriceValue;

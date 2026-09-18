@@ -49,8 +49,8 @@ namespace Pizza_Order_WinForm
         {
             float totalPrice = 0;
 
-            if(chkExtraChees.Checked)
-                totalPrice += Convert.ToSingle(chkExtraChees.Tag.ToString());
+            if(chkExtraCheese.Checked)
+                totalPrice += Convert.ToSingle(chkExtraCheese.Tag.ToString());
             if (chkGreenPeppers.Checked)
                 totalPrice += Convert.ToSingle(chkGreenPeppers.Tag.ToString());
             if (chkMushrooms.Checked)
@@ -114,7 +114,7 @@ namespace Pizza_Order_WinForm
         }
         private void GetDefaultToppings()
         {
-            chkExtraChees.Checked = false;
+            chkExtraCheese.Checked = false;
             chkGreenPeppers.Checked = false;
             chkMushrooms.Checked = false;
             chkOlives.Checked = false;
@@ -132,7 +132,7 @@ namespace Pizza_Order_WinForm
             btnOrder.Enabled = true;
             grbCrust.Enabled = true;
             grbSize.Enabled = true;
-            grbToopings.Enabled = true;
+            grbToppings.Enabled = true;
             grbWherToEat.Enabled = true;
         }
 
@@ -162,8 +162,8 @@ namespace Pizza_Order_WinForm
         {
             string toppings = "";
 
-            if (chkExtraChees.Checked)
-                toppings += chkExtraChees.Text + ", ";
+            if (chkExtraCheese.Checked)
+                toppings += chkExtraCheese.Text + ", ";
             if (chkGreenPeppers.Checked)
                 toppings += chkGreenPeppers.Text + ", ";
             if (chkMushrooms.Checked)
@@ -217,7 +217,7 @@ namespace Pizza_Order_WinForm
             {
                 grbCrust.Enabled = false;
                 grbSize.Enabled = false;
-                grbToopings.Enabled = false;
+                grbToppings.Enabled = false;
                 grbWherToEat.Enabled = false;
                 btnOrder.Enabled = false;
             }
